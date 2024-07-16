@@ -36,7 +36,7 @@ logger = logging.get_logger(__name__)
 
 # Online downloading will be added later
 
-model_path = 'EmoLLM_V3.0'
+model_path =  'EmoLLM_V3' # 'EmoLLM_V3.0'  # ModuleNotFoundError: No module named 'transformers_modules.EmoLLM_V3'
 os.system(f'git clone https://code.openxlab.org.cn/chg0901/EmoLLM_V3.0.git {model_path}')
 os.system(f'cd {model_path} && git lfs pull')
 
