@@ -1,7 +1,7 @@
 
 from modelscope.hub.api import HubApi
 
-YOUR_ACCESS_TOKEN = '8bacd730-454e-4723-8773-8a641c0651cc' #输入你的modelscope access token
+YOUR_ACCESS_TOKEN = '' #输入你的modelscope access token
 
 api = HubApi()
 api.login(YOUR_ACCESS_TOKEN)
